@@ -13,6 +13,21 @@ print("Total Steps=%s" %totalSteps)
 answer = (totalUps * 2) - totalSteps
 print("Answer=%s" %answer)
 
+pos = 0
+count = 0
+for x in data:
+	count = count + 1
+	if (x == "("): 
+		pos = pos + 1
+		print("Count %s, %s" %(count, pos))
+	else: 
+		pos = pos - 1
+		print("Count %s, %s" %(count, pos))
+		if (pos == -1): 
+			break
+print(pos)
+
+
 
 
 
