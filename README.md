@@ -1,2 +1,2 @@
 # advent-of-code
-Scala code for Advent of Code (http://adventofcode.com/)
+Scala (and Python :3) code for Advent of Code (http://adventofcode.com/)
