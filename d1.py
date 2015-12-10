@@ -13,6 +13,7 @@ print("Total Steps=%s" %totalSteps)
 answer = (totalUps * 2) - totalSteps
 print("Answer=%s" %answer)
 
+# More proper way of iterating I guess. 
 pos = 0
 count = 0
 for x in data:
